@@ -1,0 +1,145 @@
+#chess-box{
+    height: 20px;
+    background:linear-gradient(rgba(255,0,0,0.9),rgba(255,0,0,0.9)) ,url(chess-box.jpg);
+}#chess-box-gray{
+    height: 20px;
+    background:linear-gradient(rgba(29, 29, 29, 0.9),rgba(29, 29, 29, 0.9)) ,url(chess-box.jpg);
+}
+.c-logo{
+    padding: 10px;
+    text-align: center;
+    color: rgb(73, 73, 73);
+}
+.c-logo:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.c-logo h2>span{
+    color: rgb(234, 54, 54);
+    font-weight: bolder;
+}
+.c-logo p{
+    margin-top: -15px;
+    color: gray;
+    margin-left: 5px;
+}
+.c-logo div{
+    text-align: left;
+    margin-top: 2px;
+    margin-left: 10px;
+}
+.c-logo img,.c-logo div{
+    display: inline-block;
+    vertical-align: top;
+}
+.c-logo img{
+    height: 60px;
+}
+nav ul a{
+    color: rgb(58, 58, 58);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+nav ul a:hover{
+    color: rgb(234, 54, 54);
+}
+#call{
+    color: rgb(234, 54, 54);
+}
+#call a{
+    color: rgb(234, 54, 54);
+    text-decoration: none;
+    font-weight: bold;
+}
+#call a:hover{
+    color: rgb(56, 56, 56);
+}
+#call span{
+    color: rgb(56, 56, 56);
+}
+header{
+    background: linear-gradient(rgba(72, 72, 72, 0.6),rgba(72, 72, 72, 0.6)) ,url(banner.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+    text-align: center;
+    color: white;
+}
+header h1{
+    line-height: 40px;
+}
+#bg1{
+    background: linear-gradient(rgba(197, 3, 3, 0.9),rgba(197, 3, 3, 0.9)) ,url(bg1.png);
+    background-size: cover;
+    background-position: bottom;
+    color: white;
+}
+.image-circle{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: rgb(46, 46, 46);
+    margin: auto;
+}
+.image-circle p{
+    margin-top: 10px;
+}
+#bg1 h2{
+    color: rgb(51, 51, 51);
+    height: 80px;
+    width: 80px;
+    background-color: antiquewhite;
+    border-radius: 50%;
+    margin-left: 50px;
+}
+#bg2{
+    background: linear-gradient(rgba(48, 48, 48, 0.9),rgba(48, 48, 48, 0.9)) ,url(bg2.jpg);
+    background-size: cover;
+    background-position: bottom;
+    color: white;
+}
+#bg2 img{
+    height: 200px;
+    border-radius: 25px 25px 0 0;
+}
+#overlap{
+    height: 200px;
+    position: relative;
+    top: -120px;
+    left: 50px;
+}
+#success-story{
+    background: linear-gradient(rgba(197, 3, 3, 0.9),rgba(197, 3, 3, 0.9)) ,url(bg1.png);
+    background-size: cover;
+    background-position: bottom;
+    color: white;
+}
+#success-story img{
+    height: 40px;
+    border-radius: 50%;
+}
+#gallery img{
+    height: 150px;
+    margin: 10px;
+    transition: 1s;
+}
+#gallery img:hover{
+    transform: scale(1.2);
+}
+#top-button{
+    color: rgb(229, 207, 4);
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.c-fill{
+    color: rgb(120, 120, 120);
+    background: linear-gradient(to right,gray 50%,aliceblue 50% );
+    background-size: 200%;
+    background-position:right ;
+    transition: .5s;
+}
+.c-fill:hover{
+    color: white;
+    background-position:left ;
+}
